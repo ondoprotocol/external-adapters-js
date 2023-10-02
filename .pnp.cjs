@@ -476,6 +476,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "reference": "workspace:packages/sources/fluent-finance"\
       },\
       {\
+        "name": "@chainlink/flux-fToken-adapter",\
+        "reference": "workspace:packages/sources/flux-fToken"\
+      },\
+      {\
         "name": "@chainlink/fmpcloud-adapter",\
         "reference": "workspace:packages/sources/fmpcloud"\
       },\
@@ -917,6 +921,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ["@chainlink/fixer-adapter", ["workspace:packages/sources/fixer"]],\
       ["@chainlink/flightaware-adapter", ["workspace:packages/sources/flightaware"]],\
       ["@chainlink/fluent-finance-adapter", ["workspace:packages/sources/fluent-finance"]],\
+      ["@chainlink/flux-fToken-adapter", ["workspace:packages/sources/flux-fToken"]],\
       ["@chainlink/fmpcloud-adapter", ["workspace:packages/sources/fmpcloud"]],\
       ["@chainlink/frxeth-exchange-rate-adapter", ["workspace:packages/sources/frxeth-exchange-rate"]],\
       ["@chainlink/galaxis-adapter", ["workspace:packages/sources/galaxis"]],\
@@ -6398,6 +6403,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/supertest", "npm:2.0.12"],\
             ["nock", "npm:13.2.9"],\
             ["supertest", "npm:6.2.4"],\
+            ["tslib", "npm:2.4.1"],\
+            ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=b5f058"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@chainlink/flux-fToken-adapter", [\
+        ["workspace:packages/sources/flux-fToken", {\
+          "packageLocation": "./packages/sources/flux-fToken/",\
+          "packageDependencies": [\
+            ["@chainlink/flux-fToken-adapter", "workspace:packages/sources/flux-fToken"],\
+            ["@chainlink/external-adapter-framework", "npm:0.33.0"],\
+            ["@types/jest", "npm:27.5.2"],\
+            ["@types/node", "npm:16.11.51"],\
+            ["nock", "npm:13.2.9"],\
             ["tslib", "npm:2.4.1"],\
             ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=b5f058"]\
           ],\

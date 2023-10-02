@@ -336,6 +336,9 @@
       "path": "./sources/fluent-finance/tsconfig.test.json"
     },
     {
+      "path": "./sources/flux-fToken/tsconfig.test.json"
+    },
+    {
       "path": "./sources/fmpcloud/tsconfig.test.json"
     },
     {

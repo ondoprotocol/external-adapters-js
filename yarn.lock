@@ -3686,6 +3686,19 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@chainlink/flux-fToken-adapter@workspace:packages/sources/flux-fToken":
+  version: 0.0.0-use.local
+  resolution: "@chainlink/flux-fToken-adapter@workspace:packages/sources/flux-fToken"
+  dependencies:
+    "@chainlink/external-adapter-framework": 0.33.0
+    "@types/jest": 27.5.2
+    "@types/node": 16.11.51
+    nock: 13.2.9
+    tslib: 2.4.1
+    typescript: 5.0.4
+  languageName: unknown
+  linkType: soft
+
 "@chainlink/fmpcloud-adapter@workspace:packages/sources/fmpcloud":
   version: 0.0.0-use.local
   resolution: "@chainlink/fmpcloud-adapter@workspace:packages/sources/fmpcloud"

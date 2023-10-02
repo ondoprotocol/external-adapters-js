@@ -336,6 +336,9 @@
       "path": "./sources/fluent-finance"
     },
     {
+      "path": "./sources/flux-fToken"
+    },
+    {
       "path": "./sources/fmpcloud"
     },
     {
